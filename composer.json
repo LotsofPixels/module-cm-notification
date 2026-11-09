@@ -1,0 +1,14 @@
+{
+    "name": "lotsofpixels/module-cm-notification-resync",
+    "description": "Re-triggers CM.com payment notification webhooks for recent orders",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "magento/module-sales": "*",
+        "magento/module-store": "*"
+    },
+    "autoload": {
+        "files": ["registration.php"],
+        "psr-4": {"Lotsofpixels\\CmNotificationResync\\": ""}
+    }
+}
